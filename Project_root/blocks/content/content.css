@@ -59,7 +59,7 @@
     width: 683px;
     height: 52px;
     border: 1px solid red;
-    margin: 80px auto 0 228px;
+    margin: 80px auto 0 15.83%;
 }
 .section-subtitle_place_intro{
     width: 683px;
@@ -68,5 +68,31 @@
     line-height: 38px;
     text-align: start;
     border: 1px solid red;
-    margin: 45px auto 35px 228px;
+    margin: 45px auto 35px 15.83%;
+}
+.two-columns{
+    width: 984px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 35px;
+    border: 1px solid red;
+}
+.two-columns__first-column{
+    width: 683px;
+    height: 154px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid red;
+    margin: 0;
+}
+.two-columns__second-column{
+    width: 283px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    border: 1px solid red;
+    margin: 0;
 }

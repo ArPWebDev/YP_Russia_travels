@@ -15,6 +15,7 @@
 }
 .header-lang{
     display: flex;
+    width: 78px;
     font-weight: normal;
     font-size: 24px;
     line-height: 23px;
@@ -22,10 +23,10 @@
 }
 .header-lang__ru{
     text-decoration-line: underline;
-    margin: 0;
-    margin-right: 18px;
     width: 30px;
     height: 23px;
+    margin: 0;
+    margin-right: 18px;
 }
 .header-lang__en{
     width: 30px;
