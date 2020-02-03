@@ -220,7 +220,7 @@
     border: 1px solid red;
     width: 54.05%;
 }
-.video-links{
+.content-box{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -287,8 +287,182 @@
     border: 1px solid red;
 }
 .section-title_place_additional{
+    width: 67.57%;
+    font-size: 72px;
+    line-height: 65px;
+    border: 1px solid red;
 
 }
 .section-subtitle_place_additional{
-    
+    width: 54.05%;
+    font-size: 24px;
+    line-height: 35px;
+    border: 1px solid red;
+    margin: 48px auto 72px;
+}
+.additional-container{
+    position: relative;
+    width: 284px;
+    height: 330px;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url(/Project_root/images/additional\ 1.jpg);
+}
+.additional-container_mod_first{
+    background-image: url(/Project_root/images/additional\ 2.jpg);
+}
+.additional-container_mod_second{
+    background-image: url(/Project_root/images/additional\ 3.jpg);
+}
+.additional-container_mod_third{
+    background-image: url(/Project_root/images/additional\ 4.jpg);
+}
+.additional-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 284px;
+    height: 330px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.additional-content:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.additional-text__heading{
+    width: 248px;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 29px;
+    margin: 30px 18px 0;
+}
+.additional-text__text{
+    width: 248px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 18px 30px;
+}
+.comments{
+    margin: 102px auto;
+    border: 1px solid red;
+    width: 82.22%;
+}
+.section-title_place_comments{
+    width: 67.57%;
+    font-size: 72px;
+    line-height: 65px;
+    border: 1px solid red;
+}
+.section-subtitle_place_comments{
+    width: 54.05%;
+    font-size: 24px;
+    line-height: 35px;
+    border: 1px solid red;
+    margin: 48px auto 30px;
+}
+.comments-container{
+    width: 32.26%;
+    border: 1px solid red;
+}
+.comments-container__photo{
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 auto 42px 0;
+    border: 1px solid red;
+}
+.comments-container__blockquote{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid red;
+    margin: 0;
+}
+.comments-container__author{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid red;
+    margin: 24px 0 0;
+}
+.cover{
+    width: 82.22%;
+    height: 594px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.cover-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Project_root/images/cover.jpg);
+    background-size: cover;
+    border: 1px solid red;
+}
+.cover-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.section-title_place_cover{
+    width: 92.42%;
+    font-size: 72px;
+    line-height: 78px;
+    margin: 274px auto auto;
+    border: 1px solid red;
+
+}
+.section-subtitle_place_cover{
+    width: 382px;
+    font-size: 18px;
+    line-height: 26px;
+    margin: auto auto 48px;
+    border: 1px solid red;
+}
+.cover-text:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.emblem{
+    width: 82.22%;
+    margin: 82px auto 85px;
+    border: 1px solid red;
+}
+.section-title_place_emblem{
+    width: 37.42%;
+    font-size: 42px;
+    line-height: 46px;
+    margin: 0 auto 82px 0;
+    border: 1px solid red;
+    text-align: start;
+}
+.emblem-card{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.emblem-card__picture{
+    background-size: auto;
+    border: 1px solid red;
+    margin: auto auto 0;
+}
+.emblem-card__name-city{
+    border: 1px solid red;
+    margin: 35px auto auto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
 }
