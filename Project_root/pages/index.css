@@ -2,11 +2,46 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/content/content.css);
 
+@font-face {
+	font-family: 'Inter';
+	font-style:  normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(/Project_root/fonts/Inter-Regular.woff2) format("woff2"),
+		 url(/Project_root/fonts/Inter-Regular.woff) format("woff");
+  }
+  @font-face {
+	font-family: 'Inter';
+	font-style:  normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(/Project_root/fonts/Inter-Black.woff2) format("woff2"),
+		 url(/Project_root/fonts/Inter-Black.woff) format("woff");
+  }
+  @font-face {
+	font-family: 'Inter';
+	font-style:  normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(/Project_root/fonts/Inter-Bold.woff2) format("woff2"),
+		 url(/Project_root/fonts/Inter-Bold.woff) format("woff");
+  }
+  @font-face {
+	font-family: 'Inter';
+	font-style:  normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url(/Project_root/fonts/Inter-Medium.woff2) format("woff2"),
+		 url(/Project_root/fonts/Inter-Regular.woff) format("woff");
+  }
 .page {
 	width: 100%;
 	max-width: 1440px;
 	margin: 0 auto;
 	background-color:#2A2C2F;
 	font-family: Inter;
-	border: 1px solid red; 
+	border: 1px solid red;
+	font-family:'Inter';
+	font-style:  normal;
+	font-weight: 400;
 }

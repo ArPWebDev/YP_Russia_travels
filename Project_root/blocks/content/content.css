@@ -1,6 +1,6 @@
 @import url(../content/_theme/_dark/content_theme_dark.css);
 
-.section-title {
+.section-title { 
 	font-weight: 900;
     font-size: 96px;
     line-height: 93px;
@@ -8,13 +8,11 @@
     margin: 0 auto;
 }
 .section-subtitle {
-	font-weight: normal;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
 }
 .section-title_place_lead{
-    font-weight: 900;
     font-size: 96px;
     line-height: 93px;
     text-align: center;
@@ -44,7 +42,6 @@
 .lead__caption{
     border: 1px solid red;
     margin: 0;
-    font-weight: normal;
     font-size: 10px;
     line-height: 12px;
     letter-spacing: 0.15em;
@@ -87,15 +84,13 @@
 .two-columns__first-column_intro{
     width: 683px;
     height: 154px;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
 }
 .two-columns__second-column{
     width: 283px;
     height: 25px;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 10px;
     line-height: 16px;
     border: 1px solid red;
@@ -105,7 +100,7 @@
     width: 383px;
     height: 93px;
     border: 1px solid red;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 13px;
     line-height: 20px;
     margin: 0 auto 92px 15.83%;
@@ -163,7 +158,6 @@
 }
 .places__url{
     margin-bottom: 16px;
-    font-weight: normal;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.2em;
@@ -172,7 +166,6 @@
 }
 .places__link{
     margin: 0;
-    font-weight: normal;
     font-size: 18px;
     line-height: 30px;
     border: 1px solid red;
@@ -192,7 +185,6 @@
     width: 484px;
 }
 .places__text{
-    font-weight: normal;
     font-size: 18px;
     line-height: 30px;
     margin: 0;
@@ -342,7 +334,6 @@
 }
 .additional-text__text{
     width: 248px;
-    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     margin: 0 18px 30px;
@@ -378,7 +369,6 @@
     border: 1px solid red;
 }
 .comments-container__blockquote{
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     border: 1px solid red;
@@ -462,7 +452,69 @@
 .emblem-card__name-city{
     border: 1px solid red;
     margin: 35px auto auto;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
     line-height: 26px;
+}
+.barentsburg{
+    width: 82.22%;
+    margin: 0 auto 160px;
+    border: 1px solid red;
+}
+.section-title_place_barentsburg{
+    width: 49.24%;
+    font-size: 42px;
+    line-height: 61px;
+    margin: 0 auto 0 0;
+    border: 1px solid red;
+    text-align: start;
+}
+.barentsburg__coord{
+    width: 49.24%;
+    font-size: 42px;
+    line-height: 61px;
+    margin: 20px auto 48px 0;
+    border: 1px solid red;
+    text-align: start;
+}
+.barentsburg__map{
+    width: 100%;
+    background-size: cover;
+    border: 1px solid red;
+    margin: 0 auto 48px;
+}
+.first-card_place_barentsburg{
+    width: 66.05%;
+    margin: 0 auto 0 0;
+    border: 1px solid red;
+}
+.barentsburg__text{
+    width: 48.59%;
+    border: 1px solid red;
+    margin: 0 auto 0 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+.first-card__link_second{
+    width: 36.06%;  
+    border: 1px solid red;
+    justify-content: flex-start;
+}
+.barentsburg__url{
+    width: 100%;
+    border: 1px solid red;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    margin: 0;
+    color: #AAAAAA;
+}
+.barentsburg__link{
+    width: 100%;
+    border: 1px solid red;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    margin: 12px 0 0 0;
+    color: #FFFFFF;
 }
