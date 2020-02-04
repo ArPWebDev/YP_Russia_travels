@@ -1,109 +1,91 @@
 @import url(../content/_theme/_dark/content_theme_dark.css);
 
+.lead{
+    width: 68.33%;
+    margin: 0 auto;
+}
 .section-title { 
 	font-weight: 900;
-    font-size: 96px;
     text-align: center;
-    line-height: 93px;
     margin: 0 auto;
 }
 .section-subtitle {
-    font-size: 30px;
-    line-height: 36px;    
     text-align: center;
+    margin: 0 auto;
 }
 .section-title_place_lead{
     font-size: 96px;
     line-height: 93px;
     text-align: center;
-    width: 782px;
-    height: 184px;
-    border: 1px solid red;
+    width: 79.47%;
 }
 .section-subtitle_place_lead{
-    width: 583px;
-    height: 65px;
+    width: 59.25%;
     font-size: 30px;
-    border: 1px solid red;
+    line-height: 36px;  
     margin: 48px auto 78px;
 }
-.lead__pic-container{
-    width: 984px;
-    margin: 0 auto;
-    border: 1px solid red;
-}
 .lead__pic{
-    width: 984px;
-    height: 554.13px;
+    width: 100%;
     background-size: cover;
     margin-bottom: 10,87px;
-    border: 1px solid red;
 }
 .lead__caption{
-    border: 1px solid red;
     margin: 0;
     font-size: 10px;
     line-height: 12px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    width: 636px;
-    height: 10px;
+    width: 64.63%;
+}
+.intro{
+    width: 68.33%;
+    margin: 80px auto 92px;
 }
 .section-title_place_intro{
     font-size: 54px;
     line-height: 59px;
     text-align: start;
-    width: 683px;
-    height: 52px;
-    border: 1px solid red;
-    margin: 80px auto 0 15.83%;
+    width: 69.41%;
+    margin: 0 auto 0 0;
 }
 .section-subtitle_place_intro{
-    width: 683px;
-    height: 23px;
+    width: 69.41%;
     font-size: 24px;
     line-height: 38px;
     text-align: start;
-    border: 1px solid red;
-    margin: 45px auto 35px 15.83%;
+    margin: 45px auto 35px 0;
 }
 .two-columns{
-    width: 984px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    border: 1px solid red;
+    margin: 0;
 }
 .two-columns_place_intro{
     margin-bottom: 35px;
 }
 .two-columns__first-column{
-    border: 1px solid red;
     margin: 0;
 }
 .two-columns__first-column_intro{
-    width: 683px;
-    height: 154px;
+    width: 69.41%;
     font-size: 14px;
     line-height: 24px;
 }
 .two-columns__second-column{
-    width: 283px;
-    height: 25px;
+    width: 28.76%;
     font-weight: 700;
     font-size: 10px;
     line-height: 16px;
-    border: 1px solid red;
     margin: 0;
 }
 .intro-list{
-    width: 383px;
-    height: 93px;
-    border: 1px solid red;
+    width: 38.92%;
     font-weight: 700;
     font-size: 13px;
     line-height: 20px;
-    margin: 0 auto 92px 15.83%;
+    margin: 0 auto 0 0;
     list-style-type: none;
     padding: 0;
 }
@@ -113,30 +95,25 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
     width: 82.22%;
-    border: 1px solid red;
     margin: 0 auto;
 }
 .photo-grid__element{
     width: 284px;
     height: 188px;
     background-size: cover;
-    border: 1px solid red;
 }
 .places{
     margin: 20px auto 102px;
-    border: 1px solid red;
     width: 68.33%;
 }
 .first-card{
     display: flex;
     margin: 72px 0 60px;
-    border: 1px solid red;
     justify-content: space-between;
 }
 .section-title_place_places{
     font-size: 72px;
     line-height: 65px;
-    border: 1px solid red;
     text-align: start;
     width: 46.44%;
     margin: 0;
@@ -145,13 +122,11 @@
     width: 46.75%;
     height: 46.75%; 
     background-size: cover;
-    border: 1px solid red;
 }
 .first-card__link{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    border: 1px solid red;
     width: 49.19%;
 }
 .places__url{
@@ -159,27 +134,23 @@
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.2em;
-    border: 1px solid red;
     color: #AAAAAA;
 }
 .places__link{
     margin: 0;
     font-size: 18px;
     line-height: 30px;
-    border: 1px solid red;
     color: #FFFFFF;
 }
 .second-card{
     display: flex;
     margin: 0;
-    border: 1px solid red;
     justify-content: space-between;
 }
 .second-card__text{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border: 1px solid red;
     width: 49.19%   ;
 }
 .places__text{
@@ -187,7 +158,6 @@
     line-height: 30px;
     margin: 0;
     margin-bottom: 36px;
-    border: 1px solid red;
 }
 .places__text_second-var{
     margin: 0;
@@ -195,19 +165,16 @@
 .video{
     width: 82.22%;
     margin: 102px auto;
-    border: 1px solid red;
 }
 .section-title_place_video{
     font-size: 72px;
     line-height: 78px;
-    border: 1px solid red;
     width: 67.57%;
 }
 .section-subtitle_place_video{
     font-size: 24px;
     line-height: 35px;
     margin: 48px auto 72px;
-    border: 1px solid red;
     width: 54.05%;
 }
 .content-box{
@@ -215,12 +182,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    border: 1px solid red;
 }
 .background-container{
     width: 583px;
     height: 323px;
-    border: 1px solid red;
     border-radius: 5px;
     background-size: cover;
     position: relative;
@@ -235,7 +200,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px solid red;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .video-text__icon-play{
@@ -243,28 +207,24 @@
     height: 41px;
     background-size: cover;
     margin: 30px auto 94px 30px;
-    border: 1px solid red;
 }
 .video-text__duration{
     font-weight: 500;
     font-size: 12px;
     line-height: 13px;
     letter-spacing: 0.3em;
-    border: 1px solid red;
     margin: 0 auto 12px 30px;
 }
 .section-title_place_video-text{
     font-size: 36px;
     line-height: 39px;
     margin-left: 30px;
-    border: 1px solid red;
     text-align: start;
     width: 322px;
 }
 .section-subtitle_place_video-text{
     font-size: 14px;
     line-height: 15px;
-    border: 1px solid red;
     margin: 18px auto 30px 30px;
     text-align: start;
 }
@@ -274,20 +234,17 @@
 .additional{
     width: 82.22%;
     margin: 102px auto;
-    border: 1px solid red;
 }
 .section-title_place_additional{
     width: 67.57%;
     font-size: 72px;
     line-height: 65px;
-    border: 1px solid red;
 
 }
 .section-subtitle_place_additional{
     width: 54.05%;
     font-size: 24px;
     line-height: 35px;
-    border: 1px solid red;
     margin: 48px auto 72px;
 }
 .additional-container{
@@ -316,7 +273,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px solid red;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
@@ -338,25 +294,21 @@
 }
 .comments{
     margin: 102px auto;
-    border: 1px solid red;
     width: 82.22%;
 }
 .section-title_place_comments{
     width: 67.57%;
     font-size: 72px;
     line-height: 65px;
-    border: 1px solid red;
 }
 .section-subtitle_place_comments{
     width: 54.05%;
     font-size: 24px;
     line-height: 35px;
-    border: 1px solid red;
     margin: 48px auto 30px;
 }
 .comments-container{
     width: 32.26%;
-    border: 1px solid red;
 }
 .comments-container__photo{
     width: 97px;
@@ -364,26 +316,22 @@
     border-radius: 50%;
     background-size: cover;
     margin: 0 auto 42px 0;
-    border: 1px solid red;
 }
 .comments-container__blockquote{
     font-size: 14px;
     line-height: 24px;
-    border: 1px solid red;
     margin: 0;
 }
 .comments-container__author{
     font-weight: 900;
     font-size: 14px;
     line-height: 24px;
-    border: 1px solid red;
     margin: 24px 0 0;
 }
 .cover{
     width: 82.22%;
     height: 594px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .cover-box{
     position: relative;
@@ -391,7 +339,6 @@
     height: 100%;
     background-image: url(/Project_root/images/cover.jpg);
     background-size: cover;
-    border: 1px solid red;
 }
 .cover-text{
     display: flex;
@@ -402,7 +349,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px solid red;
     background-color: rgba(0, 0, 0, 0.3);
 }
 .section-title_place_cover{
@@ -410,7 +356,6 @@
     font-size: 72px;
     line-height: 78px;
     margin: 274px auto auto;
-    border: 1px solid red;
 
 }
 .section-subtitle_place_cover{
@@ -418,7 +363,6 @@
     font-size: 18px;
     line-height: 26px;
     margin: auto auto 48px;
-    border: 1px solid red;
 }
 .cover-text:hover{
     background-color: rgba(0, 0, 0, 0.8);
@@ -426,29 +370,24 @@
 .emblem{
     width: 82.22%;
     margin: 82px auto 85px;
-    border: 1px solid red;
 }
 .section-title_place_emblem{
     width: 37.42%;
     font-size: 42px;
     line-height: 46px;
     margin: 0 auto 82px 0;
-    border: 1px solid red;
     text-align: start;
 }
 .emblem-card{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .emblem-card__picture{
     background-size: auto;
-    border: 1px solid red;
     margin: auto auto 0;
 }
 .emblem-card__name-city{
-    border: 1px solid red;
     margin: 35px auto auto;
     font-weight: 700;
     font-size: 24px;
@@ -457,14 +396,12 @@
 .barentsburg{
     width: 82.22%;
     margin: 0 auto 160px;
-    border: 1px solid red;
 }
 .section-title_place_barentsburg{
     width: 49.24%;
     font-size: 42px;
     line-height: 61px;
     margin: 0 auto 0 0;
-    border: 1px solid red;
     text-align: start;
 }
 .barentsburg__coord{
@@ -472,35 +409,29 @@
     font-size: 42px;
     line-height: 61px;
     margin: 20px auto 48px 0;
-    border: 1px solid red;
     text-align: start;
 }
 .barentsburg__map{
     width: 100%;
     background-size: cover;
-    border: 1px solid red;
     margin: 0 auto 48px;
 }
 .first-card_place_barentsburg{
     width: 66.05%;
     margin: 0 auto 0 0;
-    border: 1px solid red;
 }
 .barentsburg__text{
     width: 48.59%;
-    border: 1px solid red;
     margin: 0 auto 0 0;
     font-size: 18px;
     line-height: 30px;
 }
 .first-card__link_second{
     width: 36.06%;  
-    border: 1px solid red;
     justify-content: flex-start;
 }
 .barentsburg__url{
     width: 100%;
-    border: 1px solid red;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.2em;
@@ -509,7 +440,6 @@
 }
 .barentsburg__link{
     width: 100%;
-    border: 1px solid red;
     font-size: 18px;
     line-height: 30px;
     text-decoration-line: underline;

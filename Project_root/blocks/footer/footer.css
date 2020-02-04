@@ -3,7 +3,6 @@
 .footer{
     display: flex;
     width: 82%;
-    border: 1px solid red;
     justify-content: space-between;
     margin: 0 auto 48px;
     align-items: flex-end;
@@ -15,7 +14,6 @@
     align-items: flex-end;
     justify-content: space-between;
     width: 56.08%;
-    border: 1px solid red;
     padding: 0;
     margin: 0;
 }
@@ -23,7 +21,6 @@
     text-decoration: none;
     font-size: 24px;
     color: #FFFFFF;
-    border: 1px solid red;
     margin: 0;
     padding: 0;
 }
@@ -33,6 +30,5 @@
     width: 23.82%;
     font-size: 14px;
     text-align: right;
-    border: 1px solid red;
     color: #FFFFFF;
 }
