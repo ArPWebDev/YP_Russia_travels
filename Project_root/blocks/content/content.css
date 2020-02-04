@@ -3,13 +3,13 @@
 .section-title { 
 	font-weight: 900;
     font-size: 96px;
-    line-height: 93px;
     text-align: center;
+    line-height: 93px;
     margin: 0 auto;
 }
 .section-subtitle {
     font-size: 30px;
-    line-height: 36px;
+    line-height: 36px;    
     text-align: center;
 }
 .section-title_place_lead{
@@ -112,7 +112,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
-    width: 1184px;
+    width: 82.22%;
     border: 1px solid red;
     margin: 0 auto;
 }
@@ -125,7 +125,7 @@
 .places{
     margin: 20px auto 102px;
     border: 1px solid red;
-    width: 984px;
+    width: 68.33%;
 }
 .first-card{
     display: flex;
@@ -138,13 +138,12 @@
     line-height: 65px;
     border: 1px solid red;
     text-align: start;
-    width: 457px;
-    height: 133px;
+    width: 46.44%;
     margin: 0;
 }
 .places__photo{
-    width: 460px;
-    height: 460px;
+    width: 46.75%;
+    height: 46.75%; 
     background-size: cover;
     border: 1px solid red;
 }
@@ -153,8 +152,7 @@
     flex-direction: column;
     justify-content: flex-end;
     border: 1px solid red;
-    width: 484px;
-    height: 133px;
+    width: 49.19%;
 }
 .places__url{
     margin-bottom: 16px;
@@ -182,7 +180,7 @@
     flex-direction: column;
     justify-content: flex-start;
     border: 1px solid red;
-    width: 484px;
+    width: 49.19%   ;
 }
 .places__text{
     font-size: 18px;
