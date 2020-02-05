@@ -1,0 +1,48 @@
+@import url(_theme/_dark/cover_theme_dark.css);
+.cover {
+	width: 82.22%;
+	height: 594px;
+	margin: 0 auto;
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+.cover__link{
+	color: #FFFFFF;
+}
+.cover__box {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../../images/cover.jpg);
+	background-size: cover;
+}
+.cover__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.3);	
+}
+.cover__title{
+	width: 92.42%;
+	font-size: 72px;
+	line-height: 78px;
+	margin: 274px auto auto;
+	font-weight: 900;
+	text-align: center;
+}
+.cover__subtitle {
+	width: 382px;
+	font-size: 18px;
+	line-height: 26px;
+	margin: auto auto 48px;
+	text-align: center;
+}
+.cover-text:hover{
+	background-color: rgba(0, 0, 0, 0.8);
+}

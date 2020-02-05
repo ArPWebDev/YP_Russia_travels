@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<!-- Можно лучше: подключите normalize перед подключением стилей в head + -->
-	<link href="/vendor/normalize.css" rel="stylesheet">
-	<link href="/pages/style.css" rel="stylesheet">
+	<link href="vendor/normalize.css" rel="stylesheet">
+	<link href="pages/style.css" rel="stylesheet">
 	<title>Путешествия по России</title>
 </head>
 <body class="page">
@@ -26,7 +26,7 @@
 		</div>
 	</header>
 	<main class="content content_theme_dark">
-		<section class="lead">
+		<section class="lead lead_theme-dark">
 			<h1 class="section-title section-title_place_lead">Путешествия по России</h1>
 			<!-- Отлично! правильно выделен заголовок страницы и обозначен тегом h1-h6 -->
 			<p class="section-subtitle section-subtitle_place_lead">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -38,7 +38,7 @@
 			<!-- Можно лучше: для изображения и его описания можете использовать тег figure
 					https://developer.mozilla.org/ru/docs/Web/HTML/Element/figure + -->
 		</section>
-		<section class="intro">
+		<section class="intro intro_theme-dark">
 			<h2 class="section-title section-title_place_intro">Чего мы там не видели?</h2>
 			<p class="section-subtitle section-subtitle_place_intro">Зачем путешествовать по своему дому</p>
 			<div class="two-columns two-columns_place_intro">
@@ -57,7 +57,7 @@
 				<!-- Надо исправить: У каждого HTML-элемента на странице должен быть указан CSS-класс, и для этого класса нужно написать стили в CSS-файле. Не нужно писать CSS с селектором по целому элементу, это - плохая практика. + -->
 			</ul>
 		</section>
-		<section class="photo-grid">
+		<section class="photo-grid photo-grid_theme_dark">
 			<img alt="фото" class="photo-grid__element" src="./images/grid_1.jpg">
 			<img alt="фото" class="photo-grid__element" src="./images/grid_2.jpg">
 			<img alt="фото" class="photo-grid__element" src="./images/grid_3.jpg">
@@ -72,7 +72,7 @@
 			<img alt="фото" class="photo-grid__element" src="./images/grid_12.jpg">
 			<!-- Отлично! правильно оформлен блок с изображениями! у изображений есть src, alt и класс -->
 		</section>
-		<section class="places">
+		<section class="places places_theme_dark">
 			<div class="places__first-card">
 				<h2 class="places__title">Куршская коса</h2>
 				<div class="places__link-box">
@@ -144,7 +144,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="video">
+		<section class="video video_theme_dark">
 			<h2 class="section-title section-title_place_video">В глубины Земли и в дальний космос</h2>
 			<p class="section-subtitle section-subtitle_place_video">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
 			<div class="video__content-box">
@@ -173,7 +173,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="additional">
+		<section class="additional additional_theme_dark">
 			<h2 class="section-title section-title_place_additional">А также</h2>
 			<p class="section-subtitle section-subtitle_place_additional">места, рекомендованные нашими фотографами</p>
 			<div class="additional__content-box">
@@ -197,7 +197,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="comments">
+		<section class="comments comments_theme_dark">
 			<h2 class="section-title section-title_place_comments">Фотографы, снимающие Россию</h2>
 			<p class="section-subtitle section-subtitle_place_comments">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
 			<div class="comments__content-box">
@@ -226,7 +226,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="cover">
+		<section class="cover cover_theme_dark">
 			<!-- Надо исправить: добавьте ссылку + -->
 			<a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
 				<div class="cover__box">
@@ -239,7 +239,7 @@
 				</div>
 			</a>	
 		</section>
-		<section class="emblem">
+		<section class="emblem emblem_theme_dark">
 			<h2 class="section-title section-title_place_emblem">Природа на гербах российских городов</h2>
 			<div class="emblem__box">
 				<!-- Надо исправить: content-box должен быть элементом emblem + -->
@@ -266,7 +266,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="barentsburg">
+		<section class="barentsburg barentsburg_theme_dark">
 			<h2 class="section-title section-title_place_barentsburg">Баренцбург</h2>
 			<p class="barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</p>
 			<img alt="фото карты" class="barentsburg__map" src="./images/map.svg">
@@ -370,4 +370,13 @@ https://yadi.sk/d/QDEP1A8pX7SykA/05_%D0%9B%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D0%B
 
 Визуальные различия нужно исправить. Работа должна в точности соответствовать брифу
 Для получения зачета исправьте комментарии "Надо исправить"
+-->
+
+<!-- 1.Вроде все исправил кроме затемненных картинок, так как есть пара вопросов. Как я понимаю, что бы пройти чек лист сразу по 3 и 4 проекту, то затемненные картинки в блоках(  video, additional, cover) должны быть прописаны через img и уже на них накладывается 
+	div контейнер с абсолютно спозиционированным текстом по двум осям и с rgba(0, 0, 0, 0.5)фоном.Данный div при наведении меняет прозрачность фона до 0.8. Также сама картинка спозиционированна относительно. Больше никаких элементов быть не должно?
+	2. Задал этот вопрос наставникам в слаке и получил ответ, что тип картинки не несут смысловой нагрузки поэтому их можно через bg, но в таком случае я возвращаюсь к двум div один из которых фон-картинка спозиционированный относительно , а второй затемненный фон-текст
+	спозиционированный абсолютно. Вопрос в том почему здесь что-то лишнее(пример блок additional)?
+	3. блок additional я исправил, убрав один div при этом используя background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../images/additional_1.jpg); - но мне это кажется очень странным решением.
+	4. Если делать фоновую картинку через img,то как решить вопрос с затемнением картинки в блоке video(так как сама пикча и затемняющий её аюсолютный див находятся внутри ссылки).
+	5. Все эти уточняющие вопросы вынужден писать здесь, так как в слаке прямых ответов нет, а как правильно стилизовать эти картинки я до сих пор не понял.
 -->

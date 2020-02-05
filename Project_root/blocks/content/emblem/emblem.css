@@ -1,0 +1,37 @@
+@import url(_theme/_dark/emblem_theme_dark.css);
+
+.emblem {
+	width: 82.22%;
+	margin: 82px auto 85px;
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+.section-title_place_emblem {
+	width: 37.42%;
+	font-size: 42px;
+	line-height: 46px;
+	margin: 0 auto 82px 0;
+	text-align: start;
+}
+.emblem__box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.emblem__card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.emblem__picture {
+	background-size: auto;
+	margin: auto auto 0;
+}
+.emblem__name-city {
+	margin: 35px auto auto;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 26px;
+}
