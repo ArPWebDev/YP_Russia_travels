@@ -6,6 +6,7 @@
 	grid-gap: 16px;
 	width: 82.22%;
 	margin: 0 auto;
+	padding-bottom: 20px;
 }
 .photo-grid__element {
 	width: 284px;

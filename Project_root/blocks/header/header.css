@@ -4,31 +4,31 @@
 	width: 82.22%;
 	justify-content: space-between;
 	align-items: center;
-	margin: 30px auto 48px;
+	margin: 30px auto 58px;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
 .header__logo {
-	width: 14.91%;
+	width: 176.58px;
+	background-size: cover;
 }
 .header__lang-box {
 	display: flex;
 	justify-content: space-between;
-	width: 78px;
 	font-weight: normal;
-	font-size: 24px;
-	line-height: 23px;
+	width: 78px;
+	margin-top: 12px;
 }
 .header__lang {
-	width: 30px;
-	height: 23px;
 	margin: 0;
-	text-transform: uppercase;
 	color: #FFFFFF;
+	text-decoration-line: none;
+	font-size: 26px;
+	line-height: 23px;
 }
 .header__lang_active {
-	text-decoration-line: none;
+	text-decoration-line: underline;
 }
 .header__lang:hover {
 	transition: 0.5s linear;

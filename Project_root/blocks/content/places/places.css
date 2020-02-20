@@ -1,6 +1,6 @@
 @import url(_theme/_dark/places_theme_dark.css);
 .places {
-	margin: 20px auto 102px;
+	margin: 0px auto 102px;
 	width: 68.33%;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
@@ -8,8 +8,10 @@
 }
 .places__first-card {
 	display: flex;
-	margin: 72px 0 60px;
+	margin: 0;
 	justify-content: space-between;
+	padding-top: 80px;
+	padding-bottom: 56px;
 }
 .places__title {
 	font-size: 72px;
@@ -31,7 +33,7 @@
 	width: 49.19%;
 }
 .places__url {
-	margin-bottom: 16px;
+	margin: 0;
 	font-size: 12px;
 	line-height: 20px;
 	letter-spacing: 0.2em;
@@ -62,7 +64,9 @@
 .places__text {
 	font-size: 18px;
 	line-height: 30px;
-	margin: 36px 0 0 0;
+	margin: 0;
+	padding: 0;
+	margin-top: 23px;
 }
 .places__text:nth-child(odd){
 	margin: 0;

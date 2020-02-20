@@ -2,7 +2,7 @@
 
 .intro {
 	width: 68.33%;
-	margin: 80px auto 92px;
+	margin: 83px auto 87px;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -19,23 +19,19 @@
 	font-size: 24px;
 	line-height: 38px;
 	text-align: start;
-	margin: 45px auto 35px 0;
+	margin: 31px auto 20px 0;
 }
 .two-columns {
 	width: 100%;
 	display: flex;
 	margin: 0;
-}
-.two-columns_place_intro {
-	margin-bottom: 35px;
+	margin-bottom: 29px;
 }
 .two-columns__first-column {
 	margin: 0;
-}
-.two-columns__first-column_intro {
 	width: 69.41%;
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 23px;
 }
 .two-columns__second-column {
 	width: 13.76%;
@@ -54,5 +50,5 @@
 }
 .intro-list__item{
 	font-size: 13px;
-	line-height: 20px;
+	line-height: 20.45px;
 }

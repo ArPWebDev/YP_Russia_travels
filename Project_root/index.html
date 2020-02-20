@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<!-- Можно лучше: подключите normalize перед подключением стилей в head + -->
 	<link href="vendor/normalize.css" rel="stylesheet">
 	<link href="pages/style.css" rel="stylesheet">
 	<title>Путешествия по России</title>
@@ -12,17 +11,10 @@
 	<header class="header header_theme_dark">
 		<img alt="логотип" class="header__logo" src="./images/logo.svg">
 		<!-- Отлично! логотип загружен в векторном формате -->
-		<!-- Надо исправить: logo должен быть элементом header + -->
 
 		<div class="header__lang-box">
-			<!-- Надо исправить: header-lang должен быть элементом header + -->
-			<a href="#" target="blank" class="header__lang">ru</a>
-			<a href="#" target="blank" class="header__lang 	header__lang_active">en</a>
-			<!--  Надо исправить: 
-				- для того, чтобя подчеркнуть "выбранный" язык, нужно использовать модификатор, например, _active или _selected
-				- Не стоит делать отдельный элемент на каждый язык. Сделайте им одинаковый общий класс и одному назначьте модификатор _active, который будет добавлять нижнее подчеркивание. 
-				- Напишите языки как в макете (не капсом)
-				- Языки должны быть ссылками + -->
+			<a href="#" target="blank" class="header__lang header__lang_active">Ru</a>
+			<a href="#" target="blank" class="header__lang">En</a>
 		</div>
 	</header>
 	<main class="content content_theme_dark">
@@ -35,26 +27,25 @@
 				<img alt="маршрут путешествия" class="lead__pic" src="./images/lead__image.jpg">
 				<figcaption class="lead__caption">ваша полка — верхняя</figcaption>
 			</figure>
-			<!-- Можно лучше: для изображения и его описания можете использовать тег figure
-					https://developer.mozilla.org/ru/docs/Web/HTML/Element/figure + -->
 		</section>
 		<section class="intro intro_theme-dark">
 			<h2 class="section-title section-title_place_intro">Чего мы там не видели?</h2>
 			<p class="section-subtitle section-subtitle_place_intro">Зачем путешествовать по своему дому</p>
-			<div class="two-columns two-columns_place_intro">
-				<p class="two-columns__first-column two-columns__first-column_intro">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и п роехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-				<p class="two-columns__second-column"><span class="intro__span">Автор текста:</span> Иванов И.И. <span class="intro__span">Дата:</span> 01.01.01</p>
-				<!-- Надо исправить: не нужно использовать br для переноса строк внутри одного заголовока/абзаца - для этого обычно ограничивают ширину заголовка/абзаца и тогда он перенесется на новую строку сам. Br использовать в таких случаях плохо потому, что если текст в заголовке/абзаце поменяется - перенос строки или перетрется или будет работать некорректно. + -->
+			<div class="two-columns">
+				<p class="two-columns__first-column">
+					По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и 
+					суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою 
+					«Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+				<p class="two-columns__second-column">
+					<span class="intro__span">Автор текста:</span> Иванов И.И. 
+					<span class="intro__span">Дата:</span> 01.01.01</p>
 			</div>
-			<!-- Надо исправить: тут и в статистике ниже часть текста должна иметь жирное начертание. Сверьтесь с макетом. Используйте span, назначите ему класс и правильно его стилизуйте. + -->
-
 			<ul class="intro-list">
 				<li class="intro-list__item"><span class="intro__span">Часовых поясов</span> 11</li>
 				<li class="intro-list__item"><span class="intro__span">Объектов природного наследия ЮНЕСКО </span> 12</li>
 				<li class="intro-list__item"><span class="intro__span">Объектов культурного наследия ЮНЕСКО</span> 16</li>
 				<li class="intro-list__item"><span class="intro__span">Природных заповедников</span> 105</li>
 				<li class="intro-list__item"><span class="intro__span">Аэропортов</span> 241</li>
-				<!-- Надо исправить: У каждого HTML-элемента на странице должен быть указан CSS-класс, и для этого класса нужно написать стили в CSS-файле. Не нужно писать CSS с селектором по целому элементу, это - плохая практика. + -->
 			</ul>
 		</section>
 		<section class="photo-grid photo-grid_theme_dark">
@@ -77,7 +68,6 @@
 				<h2 class="places__title">Куршская коса</h2>
 				<div class="places__link-box">
 					<p class="places__url">url</p>
-					<!-- Можно лучше: вместо капса лучше использовать text-transform: uppercase + -->
 					<a class="places__link" href="park-kosa.ru" target="blank">park-kosa.ru</a>
 				</div>
 			</div>
@@ -86,12 +76,8 @@
 				<div class="places__text-box">
 					<p class="places__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
 					<p class="places__text">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
-					<!-- Надо исправить: удалите модификатор  places__text_second-var
-					Для стилизации конкретного элемента используйте nth-child
-				Про nth-child: http://css.yoksel.ru/nth-child/ + -->
 				</div>
 			</div>
-			<!-- Надо исправить: first-card и second-card должны быть элементами places (и их элементы тоже) + -->
 			<div class="places__first-card">
 				<h2 class="places__title">Кольский</h2>
 				<div class="places__link-box">
@@ -148,50 +134,41 @@
 			<h2 class="section-title section-title_place_video">В глубины Земли и в дальний космос</h2>
 			<p class="section-subtitle section-subtitle_place_video">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
 			<div class="video__content-box">
-				<div class="video__container">
-					<a class="video__link" href="https://vimeo.com/81106671" target="blank">
-						<div class="video__text">
-							<!-- Надо исправить: видео целиком должно быть ссылкой + -->
-							<!-- Надо исправить: content-box, background-container, video-text должны быть элементами video + -->
-							<img alt="иконка запуска видео" class="video__icon-play" src="./images/icon_play.svg">
-							<p class="video__duration">6:30</p>
-							<h2 class="video__title">Colors of Kamchatka</h2>
-							<p class="video__subtitle">Director: Pavel Karykhalin</p>
-							<!-- Надо исправить: Название имя и имя автора не являютс заголовками и подзаголовками секции. Задайти для них класс элемента блока video + -->
-						</div>
-					</a>
-				</div>
-				<div class="video__container">
-					<a class="video__link" href="https://vimeo.com/290675450" target="blank">
-						<div class="video__text">
-							<img alt="иконка запуска видео" class="video__icon-play" src="./images/icon_play.svg">
-							<p class="video__duration">24:45</p>
-							<h2 class="video__title">Обсерватория | Observatory</h2>
-							<p class="video__subtitle">Director: Alexander Khudokon</p>
-						</div>
-					</a>
-				</div>
+				<a class="video__link" href="https://vimeo.com/81106671" target="blank">
+					<div class="video__container">
+						<img alt="иконка запуска видео" class="video__icon-play" src="./images/icon_play.svg">
+						<p class="video__duration">6:30</p>
+						<h2 class="video__title">Colors of Kamchatka</h2>
+						<p class="video__subtitle">Director: Pavel Karykhalin</p>
+					</div>
+				</a>
+				<a class="video__link" href="https://vimeo.com/290675450" target="blank">
+					<div class="video__container video__container_obs">
+						<img alt="иконка запуска видео" class="video__icon-play" src="./images/icon_play.svg">
+						<p class="video__duration">24:45</p>
+						<h2 class="video__title">Обсерватория | Observatory</h2>
+						<p class="video__subtitle">Director: Alexander Khudokon</p>
+					</div>
+				</a>
 			</div>
 		</section>
 		<section class="additional additional_theme_dark">
 			<h2 class="section-title section-title_place_additional">А также</h2>
 			<p class="section-subtitle section-subtitle_place_additional">места, рекомендованные нашими фотографами</p>
 			<div class="additional__content-box">
-				<!-- Надо исправить: content-box должен быть элементом additional + -->
 				<div class="additional__container">
-					<!-- Надо исправить: Этот элемент - лишняя обертка. Ее можно удалить без вреда для верстки. Старайтесь избегать лишних элементов в разметке.  --> 
 					<h2 class="additional__heading">Новороссийская бухта</h2>
 					<p class="additional__text">Главный торговый порт не курорт, но море здесь лазурное, и толпы кораблей на рейде. Залюбуешься.</p>
 				</div>
-				<div class="additional__container additional__container_first">
+				<div class="additional__container additional__container_shikhan">
 					<h2 class="additional__heading">Аракульский шихан</h2>
 					<p class="additional__text">Даже для Южного Урала, где красиво везде, это пейзаж выдающийся. И там отсутствует несносная мошкá.</p>
 				</div>
-				<div class="additional__container additional__container_second">
+				<div class="additional__container additional__container_scull">
 					<h2 class="additional__heading">Череповец</h2>
 					<p class="additional__text">Громадный металлургический комбинат на водном пути с Волги в Балтийское море. В нём есть своя красота.</p>
 				</div>
-				<div class="additional__container additional__container_third">
+				<div class="additional__container additional__container_nicola">
 					<h2 class="additional__heading">Никола-Ленивец</h2>
 					<p class="additional__text">Оцените ответ современных художников идолам капища, которое было тут при древнем поселении на реке Угра.</p>
 				</div>
@@ -201,7 +178,6 @@
 			<h2 class="section-title section-title_place_comments">Фотографы, снимающие Россию</h2>
 			<p class="section-subtitle section-subtitle_place_comments">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
 			<div class="comments__content-box">
-				<!-- Надо исправить: content-box должен быть элементом comments + -->
 				<div class="comments__container">
 					<img alt="фото автора" class="comments__photo" src="./images/comments_1.jpg">
 					<blockquote class="comments__blockquote">
@@ -226,42 +202,34 @@
 				</div>
 			</div>
 		</section>
-		<section class="cover cover_theme_dark">
-			<!-- Надо исправить: добавьте ссылку + -->
-			<a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
-				<div class="cover__box">
-					<!-- Надо исправить: Этот элемент - лишняя обертка. Ее можно удалить без вреда для верстки. Старайтесь избегать лишних элементов в разметке. -->
-					<div class="cover__text">
-						<!-- Надо исправить: cover-text должен быть элементом cover + -->
-						<h2 class="cover__title">До Байкала «на собаках»</h2>
-						<p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-					</div>
-				</div>
-			</a>	
-		</section>
+		<a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
+				<!-- Надо исправить: Этот элемент - лишняя обертка. Ее можно удалить без вреда для верстки. Старайтесь избегать лишних элементов в разметке. -->
+				<!-- Одну обвертку удалил, а cover__box же нужен? Или я что-то не понимаю? -->
+				<!-- да. у вас сейчас целых три оберки для текста. нужно оставить и распределить стили между section и a -->
+				<h2 class="cover__title">До Байкала «на собаках»</h2>
+				<p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+		</a>	
 		<section class="emblem emblem_theme_dark">
 			<h2 class="section-title section-title_place_emblem">Природа на гербах российских городов</h2>
 			<div class="emblem__box">
-				<!-- Надо исправить: content-box должен быть элементом emblem + -->
 				<div class="emblem__card">
-					<!-- Надо исправить: emblem-card и его элементы должны быть элементами emblem + -->
 					<img alt="герб города" class="emblem__picture" src="./images/emblem_1.svg">
 					<p class="emblem__name-city">Великий Новгород</p>
 				</div>
 				<div class="emblem__card">
-					<img alt="герб города" class="emblem__picture" src="./images/emblem_2.png">
+					<img alt="герб города" class="emblem__picture emblem__picture_rostov" src="./images/emblem_2.png">
 					<p class="emblem__name-city">Ростов Великий</p>
 				</div>
 				<div class="emblem__card">
-					<img alt="герб города" class="emblem__picture" src="./images/emblem_3.svg">
+					<img alt="герб города" class="emblem__picture emblem__picture_tambov" src="./images/emblem_3.svg">
 					<p class="emblem__name-city">Тамбов</p>
 				</div>
 				<div class="emblem__card">
-					<img alt="герб города" class="emblem__picture" src="./images/emblem_4.svg">
+					<img alt="герб города" class="emblem__picture emblem__picture_elabuga" src="./images/emblem_4.svg">
 					<p class="emblem__name-city">Елабуга</p>
 				</div>
 				<div class="emblem__card">
-					<img alt="герб города" class="emblem__picture" src="./images/emblem_5.svg">
+					<img alt="герб города" class="emblem__picture emblem__picture_perm" src="./images/emblem_5.svg">
 					<p class="emblem__name-city">Пермь</p>
 				</div>
 			</div>
@@ -271,12 +239,9 @@
 			<p class="barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</p>
 			<img alt="фото карты" class="barentsburg__map" src="./images/map.svg">
 			<div class="barentsburg__box">
-				<!-- Надо исправить: first-card должен быть элементом barentsburg + -->
 				<p class="barentsburg__text">Арктика и соседство с Норвегией — мало кто знает о жизни самого западного российского посёлка, который находится на Шпицбергене.</p>
 				<div class="barentsburg__link-box">
-					<!-- Надо исправить: first-card__link  должен быть элементом barentsburg + -->
 					<p class="barentsburg__url">url</p>
-					<!-- Можно лучше: вместо капса лучше использовать text-transform: uppercase + -->
 					<a class="barentsburg__link" href="https://meduza.io/feature/2016/03/02/umeret-ili-roditsya-zdes-prakticheski-nevozmozhno" target="blank">Умереть или родиться здесь практически невозможно</a>
 				</div>
 			</div>
@@ -286,7 +251,6 @@
 		<nav class="footer__menu">
 			<ul class="footer__ul">
 				<li class="footer__li">
-					<!-- Надо исправить: У каждого HTML-элемента на странице должен быть указан CSS-класс, и для этого класса нужно написать стили в CSS-файле. Не нужно писать CSS с селектором по целому элементу, это - плохая практика. + -->
 					<a class="footer__link" href="https://yandex.ru/maps/" target="blank">Карты</a>
 				</li>
 				<li class="footer__li">
@@ -303,19 +267,11 @@
 				</li>
 			</ul>
 		</nav>
-		<!-- Надо исправить: по смыслу эти ссылки - навигация. Оберните их в список <nav>. используйте список nav > ul > li > a + -->
 		<p class="footer__author">&#169;2019.Артем Петров</p>
 		<!-- Отлично! Для копирайта вы используете html мнемоники -->
 	</footer>
 </body>
 </html>
-
-<!--
-	Наставники в слаке говорили об этом, но в этом спринте я зафейлил с планированием времени, поэтому приходится отправлять работу с недоделками, так как все пилил ускоренно и где-то какие-то косяки незаметил, либо пока не знаю как исправить. В следующем спринте
-    постараюсь более грамотно распределить время, но пока отправляю такую работу и буду пытаться довести её до ума в рамках 3 и 4 проекта одновременно, так как 9 февраля уже дедлайн, а вылетать в академ оч не хочется. Соре.
--->
-
-
 
 
 <!-- В целом по работе: 
@@ -325,44 +281,25 @@
         для всех изображений прописан alt
         стили и картинки в самостоятельных папках
         для логотипа и иконок использован вектроный формат изображений
-        контент центрируется на большом экране
-
-Лекция по БЭМ для повторения материала:
-https://yadi.sk/d/QDEP1A8pX7SykA/05_%D0%9B%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%20%D0%91%D0%AD%D0%9C.mp4
+		контент центрируется на большом экране
+		пути исправлены и подключены стили и изображения
 
 
     Нужно исправить:
 
-    - Комментарии в разметке +
-
-    - Для страницы используется font-family: 'Inter', это является не совсем корректным решением. В том случае, если по какой-либо причине, например, шрифты не загрузятся или будет использоваться браузер, не поддерживающий современные расширения формата, следует предусмотреть такой исход и один или несколько из системных шрифтов. Используйте font-family: 'Inter', Arial, sans-serif; Желательно задать каждому блоку font-family +
-     
-    - Для всех ссылок на странице задайте opacity при наведении +
-
-	- при использовании абсолютного позиционирования, задавайте родительскому элементу position: relative +
+    - Комментарии в cover
 	
-	- перестройте пути проекта (пути до изображений и остальных файлов).
-     В проекте вы используете ссылки на пути до файлов относительно корня сайта (начинаются src="/..."), такие пути работают только на сервере. При проверке, которая проводится локально, стилевые файлы и  изображения оказываются недоступны на странице.
-     необходимо использовать пути, которые работают локально (=./)
-	 Подробнее о путях: https://puzzleweb.ru/html/8_links2.php +
-	 
-	 сейчас на странице не подключен шрифт Inter и не видно некоторые изображения. Проверка на внешнее совпадение с макетом будет после добавления их на страницу
+	- видео должно быть 2 в ряду
 
    
 
 
     Можно улучшить:
-   
-    - Комментарии в разметке +
+       
+	- Распределите стилевые файлы в соответствии с файловой структурой БЭМ https://ru.bem.info/methodology/filestructure/ 
+	* элементы блоков необходимо распределить по своим файлам
 
-    - Переименуйте index.css в style.css +
-    
-    - Распределите стилевые файлы в соответствии с файловой структурой БЭМ https://ru.bem.info/methodology/filestructure/ +
 
-    - Добавьте transition для интерактивных элементов
-    https://developer.mozilla.org/ru/docs/Web/CSS/transition +
-
-    - Задайте font-family для каждого блока +
 
 Пожалуйста, не удаляйте комментарии.
 Исправленные комментарии помечайте +
@@ -371,12 +308,6 @@ https://yadi.sk/d/QDEP1A8pX7SykA/05_%D0%9B%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D0%B
 Визуальные различия нужно исправить. Работа должна в точности соответствовать брифу
 Для получения зачета исправьте комментарии "Надо исправить"
 -->
-
-<!-- 1.Вроде все исправил кроме затемненных картинок, так как есть пара вопросов. Как я понимаю, что бы пройти чек лист сразу по 3 и 4 проекту, то затемненные картинки в блоках(  video, additional, cover) должны быть прописаны через img и уже на них накладывается 
-	div контейнер с абсолютно спозиционированным текстом по двум осям и с rgba(0, 0, 0, 0.5)фоном.Данный div при наведении меняет прозрачность фона до 0.8. Также сама картинка спозиционированна относительно. Больше никаких элементов быть не должно?
-	2. Задал этот вопрос наставникам в слаке и получил ответ, что тип картинки не несут смысловой нагрузки поэтому их можно через bg, но в таком случае я возвращаюсь к двум div один из которых фон-картинка спозиционированный относительно , а второй затемненный фон-текст
-	спозиционированный абсолютно. Вопрос в том почему здесь что-то лишнее(пример блок additional)?
-	3. блок additional я исправил, убрав один div при этом используя background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../images/additional_1.jpg); - но мне это кажется очень странным решением.
-	4. Если делать фоновую картинку через img,то как решить вопрос с затемнением картинки в блоке video(так как сама пикча и затемняющий её аюсолютный див находятся внутри ссылки).
-	5. Все эти уточняющие вопросы вынужден писать здесь, так как в слаке прямых ответов нет, а как правильно стилизовать эти картинки я до сих пор не понял.
--->
+<!-- Видео, вроде и до этого было 2 в ряд, макет сверстан под 1440 и они в любом случае влезают, но наставник сказал заменить относительную ширину коробки с видео, на статическую, что я собственно и сделал. Касательно размеров, наставник сказал, что допускаются 
+	отклонения до 10px, у меня самый проблемный получился блок places, но и там нет расхождений больше, чем в 10px. Есть проблема с текстом который, с подчеркиванием, в макете линия подчеркивания на 1-2px дальше от текста, а в моей верстке она вплотную, как это 
+	пофиксить я не знаю, но наставник пояснил, что :"немного разное расстояние от текста до линии это нормально, подчеркивание отрисовывается браузером и в большинстве случаев этим нельзя управлять".-->

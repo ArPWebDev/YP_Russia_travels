@@ -1,4 +1,4 @@
-@import url(_theme/_dark/footer_theme_dark);
+@import url(_theme/_dark/footer_theme_dark.css);
 .footer {
 	display: flex;
 	width: 82%;
@@ -21,10 +21,10 @@
 	width: 100%;
 	padding: 0;
 	margin: 0;
+	margin-top: 5px;
 }
 .footer__li{
-	margin: 0;
-	padding: 0;
+	padding-right: 3px;
 	font-size: 24px;
 	list-style-type: none;
 }
