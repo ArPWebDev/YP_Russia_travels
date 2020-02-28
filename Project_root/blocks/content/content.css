@@ -1,15 +1,3 @@
-@import url(_theme/_dark/content_theme_dark.css);
-@import url(lead/lead.css);
-@import url(intro/intro.css);	
-@import url(photo-grid/photo-grid.css);
-@import url(places/places.css);
-@import url(video/video.css);
-@import url(additional/additional.css);
-@import url(comments/comments.css);
-@import url(cover/cover.css);	
-@import url(emblem/emblem.css);
-@import url(barentsburg/barentsburg.css);
-
 .content{
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;

@@ -1,0 +1,7 @@
+@import url(_place/_lead/section-title_place_lead.css);
+.section-title {
+	font-weight: 900;
+	font-style: normal;
+	text-align: center;
+	margin: 0 auto;
+}
