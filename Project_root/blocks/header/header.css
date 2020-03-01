@@ -7,9 +7,10 @@
 	width: 82.22%;
 	justify-content: space-between;
 	align-items: center;
-	margin: 30px auto 58px;
+	margin: 0 auto;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	margin: 30px auto 58px;
 }
 

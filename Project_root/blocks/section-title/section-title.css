@@ -1,4 +1,5 @@
 @import url(_place/_lead/section-title_place_lead.css);
+@import url(_place/_intro/section-title_place_intro.css);
 .section-title {
 	font-weight: 900;
 	font-style: normal;

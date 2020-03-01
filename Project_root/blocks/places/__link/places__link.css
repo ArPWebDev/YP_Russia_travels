@@ -1,0 +1,10 @@
+.places__link {
+	margin: 0;
+	font-size: 18px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.places__link:hover {
+	transition: 0.5s linear;
+	opacity: 0.5;
+} 

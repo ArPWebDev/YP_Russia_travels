@@ -1,4 +1,5 @@
 @import url(_place/_lead/section-subtitle_place_lead.css);
+@import url(_place/_intro/section-subtitle_place_intro.css);
 .section-subtitle {
 	text-align: center;
 	font-style: normal;

@@ -1,28 +1,10 @@
+@import url(__box/lead__box.css);
+@import url(__caption/lead__caption.css);
+@import url(__pic/lead__pic.css);
 .lead {
 	width: 68.33%;
 	margin: 0 auto;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-}
-
-
-
-
-
-.lead_box{
-	width: 100%;
-	margin: 0 auto;
-}
-.lead__pic {
-	width: 100%;
-	background-size: cover;
-}
-.lead__caption {
-	margin-top: 8px;
-	font-size: 10px;
-	line-height: 12px;
-	letter-spacing: 0.15em;
-	text-transform: uppercase;
-	width: 64.63%;
 }

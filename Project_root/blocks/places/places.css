@@ -1,3 +1,9 @@
+@import url(__first-card/places__first-card.css);
+@import url(__title/places__title.css);
+@import url(__link-box/places__link-box.css);
+@import url(__url/places__url.css);
+@import url(__link/places__link.css);
+@import url(__first-card/places__first-card.css);
 .places {
 	margin: 0px auto 102px;
 	width: 68.33%;
@@ -5,50 +11,12 @@
 	font-style: normal;
 	font-weight: 400;
 }
-.places__first-card {
-	display: flex;
-	margin: 0;
-	justify-content: space-between;
-	padding-top: 80px;
-	padding-bottom: 56px;
-}
-.places__title {
-	font-size: 72px;
-	line-height: 65px;
-	text-align: start;
-	width: 46.44%;
-	margin: 0;
-	font-weight: 900;
-}
-.places__photo {
-	width: 46.75%;
-	height: 46.75%;
-	background-size: cover;
-}
-.places__link-box {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	width: 49.19%;
-}
-.places__url {
-	margin: 0;
-	font-size: 12px;
-	line-height: 20px;
-	letter-spacing: 0.2em;
-	color: #AAAAAA;
-	text-transform: uppercase;
-}
-.places__link {
-	margin: 0;
-	font-size: 18px;
-	line-height: 30px;
-	color: #FFFFFF;
-}
-.places__link:hover {
-	transition: 0.5s linear;
-	opacity: 0.5;
-} 
+
+
+
+
+
+
 .places__second-card {
 	display: flex;
 	margin: 0;

@@ -1,3 +1,9 @@
+@import url(__columns/intro__columns.css);
+@import url(__first-column/intro__first-column.css);
+@import url(__second-column/intro__second-column.css);
+@import url(__span/intro__span.css);
+@import url(__ul/intro__ul.css);
+@import url(__li/intro__li.css);
 .intro {
 	width: 68.33%;
 	margin: 83px auto 87px;
@@ -5,48 +11,10 @@
 	font-style: normal;
 	font-weight: 400;
 }
-.section-title_place_intro {
-	font-size: 54px;
-	line-height: 59px;
-	text-align: start;
-	width: 69.41%;
-	margin: 0 auto 0 0;
-}
-.section-subtitle_place_intro {
-	width: 69.41%;
-	font-size: 24px;
-	line-height: 38px;
-	text-align: start;
-	margin: 31px auto 20px 0;
-}
-.two-columns {
-	width: 100%;
-	display: flex;
-	margin: 0;
-	margin-bottom: 29px;
-}
-.two-columns__first-column {
-	margin: 0;
-	width: 69.41%;
-	font-size: 14px;
-	line-height: 23px;
-}
-.two-columns__second-column {
-	width: 13.76%;
-	font-size: 10px;
-	line-height: 16px;
-	margin: 0 0 0 18px;
-}
-.intro__span{
-	font-weight: 700;
-}
-.intro-list {
-	width: 38.92%;
-	margin: 0 auto 0 0;
-	list-style-type: none;
-	padding: 0;
-}
-.intro-list__item{
-	font-size: 13px;
-	line-height: 20.45px;
-}
+
+
+
+
+
+
+
