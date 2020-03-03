@@ -1,8 +1,9 @@
+@import url(__title/cover__title.css);
+@import url(__subtitle/cover__subtitle.css);
 .cover {
 	display: block;
 	width: 1184px;
 	height: 594px;
-	margin: 95px auto 3px;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -13,26 +14,4 @@
 }
 .cover:hover{
 	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../images/cover.jpg);
-}
-.cover__title{
-	width: 92.42%;
-	padding: 277px 9px 0 0px;
-	font-size: 72px;
-	line-height: 78px;
-	font-weight: 900;
-	text-align: center;
-	color: #FFFDFD;
-	margin:  0 auto;
-
-}
-.cover__subtitle {
-	width: 382px;
-	font-size: 18px;
-	line-height: 26px;
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 119px;
-}
-.cover-text:hover{
-	background-color: rgba(0, 0, 0, 0.8);
 }

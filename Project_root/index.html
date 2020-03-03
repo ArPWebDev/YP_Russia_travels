@@ -4,21 +4,21 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<link href="vendor/normalize.css" rel="stylesheet">
-	<link href="pages/style.css" rel="stylesheet">
+	<link href="page/style.css" rel="stylesheet">
 	<title>Путешествия по России</title>
 </head>
 <body class="page">
-	<header class="header">
+	<header class="header page__header">
 		<img alt="логотип" class="header__logo" src="./images/logo.svg">
 		<!-- Отлично! логотип загружен в векторном формате -->
 
-		<div class="header__lang-box">
+		<nav class="header__lang-box">
 			<a href="#" target="blank" class="header__lang header__lang_active">Ru</a>
 			<a href="#" target="blank" class="header__lang">En</a>
-		</div>
+		</nav>
 	</header>
 	<main class="content">
-		<section class="lead">
+		<section class="lead page__lead">
 			<h1 class="section-title section-title_place_lead">Путешествия по России</h1>
 			<!-- Отлично! правильно выделен заголовок страницы и обозначен тегом h1-h6 -->
 			<p class="section-subtitle section-subtitle_place_lead">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -28,18 +28,12 @@
 				<figcaption class="lead__caption">ваша полка — верхняя</figcaption>
 			</figure>
 		</section>
-		<section class="intro">
+		<section class="intro page__intro">
 			<h2 class="section-title section-title_place_intro">Чего мы там не видели?</h2>
-			<p class="section-subtitle section-subtitle_place_intro">Зачем путешествовать по своему дому</p>
-			<div class="intro__columns">
-				<p class="intro__first-column">
+			<p class="intro__text">
 					По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и 
 					суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою 
 					«Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-				<p class="intro__second-column">
-					<span class="intro__span">Автор текста:</span> Иванов И.И. 
-					<span class="intro__span">Дата:</span> 01.01.01</p>
-			</div>
 			<ul class="intro__ul">
 				<li class="intro__li"><span class="intro__span">Часовых поясов</span> 11</li>
 				<li class="intro__li"><span class="intro__span">Объектов природного наследия ЮНЕСКО </span> 12</li>
@@ -48,7 +42,7 @@
 				<li class="intro__li"><span class="intro__span">Аэропортов</span> 241</li>
 			</ul>
 		</section>
-		<section class="photo-grid">
+		<section class="photo-grid page__photo-grid">
 			<img alt="фото" class="photo-grid__element" src="./images/grid_1.jpg">
 			<img alt="фото" class="photo-grid__element" src="./images/grid_2.jpg">
 			<img alt="фото" class="photo-grid__element" src="./images/grid_3.jpg">
@@ -63,7 +57,7 @@
 			<img alt="фото" class="photo-grid__element" src="./images/grid_12.jpg">
 			<!-- Отлично! правильно оформлен блок с изображениями! у изображений есть src, alt и класс -->
 		</section>
-		<section class="places">
+		<section class="places page__places">
 			<div class="places__first-card">
 				<h2 class="places__title">Куршская коса</h2>
 				<div class="places__link-box">
@@ -130,7 +124,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="video">
+		<section class="video page__video">
 			<h2 class="section-title section-title_place_video">В глубины Земли и в дальний космос</h2>
 			<p class="section-subtitle section-subtitle_place_video">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
 			<div class="video__content-box">
@@ -152,29 +146,7 @@
 				</a>
 			</div>
 		</section>
-		<section class="additional">
-			<h2 class="section-title section-title_place_additional">А также</h2>
-			<p class="section-subtitle section-subtitle_place_additional">места, рекомендованные нашими фотографами</p>
-			<div class="additional__content-box">
-				<div class="additional__container">
-					<h2 class="additional__heading">Новороссийская бухта</h2>
-					<p class="additional__text">Главный торговый порт не курорт, но море здесь лазурное, и толпы кораблей на рейде. Залюбуешься.</p>
-				</div>
-				<div class="additional__container additional__container_shikhan">
-					<h2 class="additional__heading">Аракульский шихан</h2>
-					<p class="additional__text">Даже для Южного Урала, где красиво везде, это пейзаж выдающийся. И там отсутствует несносная мошкá.</p>
-				</div>
-				<div class="additional__container additional__container_scull">
-					<h2 class="additional__heading">Череповец</h2>
-					<p class="additional__text">Громадный металлургический комбинат на водном пути с Волги в Балтийское море. В нём есть своя красота.</p>
-				</div>
-				<div class="additional__container additional__container_nicola">
-					<h2 class="additional__heading">Никола-Ленивец</h2>
-					<p class="additional__text">Оцените ответ современных художников идолам капища, которое было тут при древнем поселении на реке Угра.</p>
-				</div>
-			</div>
-		</section>
-		<section class="comments">
+		<section class="comments page__comments">
 			<h2 class="section-title section-title_place_comments">Фотографы, снимающие Россию</h2>
 			<p class="section-subtitle section-subtitle_place_comments">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
 			<div class="comments__content-box">
@@ -202,52 +174,15 @@
 				</div>
 			</div>
 		</section>
-		<a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
+		<a class="cover page__cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
 				<!-- Надо исправить: Этот элемент - лишняя обертка. Ее можно удалить без вреда для верстки. Старайтесь избегать лишних элементов в разметке. -->
 				<!-- Одну обвертку удалил, а cover__box же нужен? Или я что-то не понимаю? -->
 				<!-- да. у вас сейчас целых три оберки для текста. нужно оставить и распределить стили между section и a -->
 				<h2 class="cover__title">До Байкала «на собаках»</h2>
 				<p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
 		</a>	
-		<section class="emblem">
-			<h2 class="section-title section-title_place_emblem">Природа на гербах российских городов</h2>
-			<div class="emblem__box">
-				<div class="emblem__card">
-					<img alt="герб города" class="emblem__picture" src="./images/emblem_1.svg">
-					<p class="emblem__name-city">Великий Новгород</p>
-				</div>
-				<div class="emblem__card">
-					<img alt="герб города" class="emblem__picture emblem__picture_rostov" src="./images/emblem_2.png">
-					<p class="emblem__name-city">Ростов Великий</p>
-				</div>
-				<div class="emblem__card">
-					<img alt="герб города" class="emblem__picture emblem__picture_tambov" src="./images/emblem_3.svg">
-					<p class="emblem__name-city">Тамбов</p>
-				</div>
-				<div class="emblem__card">
-					<img alt="герб города" class="emblem__picture emblem__picture_elabuga" src="./images/emblem_4.svg">
-					<p class="emblem__name-city">Елабуга</p>
-				</div>
-				<div class="emblem__card">
-					<img alt="герб города" class="emblem__picture emblem__picture_perm" src="./images/emblem_5.svg">
-					<p class="emblem__name-city">Пермь</p>
-				</div>
-			</div>
-		</section>
-		<section class="barentsburg">
-			<h2 class="section-title section-title_place_barentsburg">Баренцбург</h2>
-			<p class="barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</p>
-			<img alt="фото карты" class="barentsburg__map" src="./images/map.svg">
-			<div class="barentsburg__box">
-				<p class="barentsburg__text">Арктика и соседство с Норвегией — мало кто знает о жизни самого западного российского посёлка, который находится на Шпицбергене.</p>
-				<div class="barentsburg__link-box">
-					<p class="barentsburg__url">url</p>
-					<a class="barentsburg__link" href="https://meduza.io/feature/2016/03/02/umeret-ili-roditsya-zdes-prakticheski-nevozmozhno" target="blank">Умереть или родиться здесь практически невозможно</a>
-				</div>
-			</div>
-		</section>
 	</main>
-	<footer class="footer">
+	<footer class="footer page__footer">
 		<nav class="footer__menu">
 			<ul class="footer__ul">
 				<li class="footer__li">

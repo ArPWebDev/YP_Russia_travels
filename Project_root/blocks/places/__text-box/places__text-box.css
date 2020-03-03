@@ -1,0 +1,6 @@
+.places__text-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 49.19%;
+}

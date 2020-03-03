@@ -1,45 +1,14 @@
+@import url(__author/footer__author.css);
+@import url(__li/footer__li.css);
+@import url(__link/footer__link.css);
+@import url(__menu/footer__menu.css);
+@import url(__ul/footer__ul.css);
 .footer {
 	display: flex;
 	width: 82%;
 	justify-content: space-between;
-	margin: 0 auto 48px;
 	align-items: flex-end;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-}
-.footer__menu{
-	width: 56.08%;
-}
-.footer__ul{
-	flex-wrap: wrap;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	list-style-type: none;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	margin-top: 5px;
-}
-.footer__li{
-	padding-right: 3px;
-	font-size: 24px;
-	list-style-type: none;
-}
-.footer__link {
-	text-decoration: none;
-	color: #FFFFFF;
-}
-.footer__author {
-	padding: 0;
-	margin: 0;
-	width: 23.82%;
-	font-size: 14px;
-	text-align: right;
-	color: #FFFFFF;
-}
-.footer__li:hover {
-	transition: 0.5s linear;
-	opacity: 0.5;
 }

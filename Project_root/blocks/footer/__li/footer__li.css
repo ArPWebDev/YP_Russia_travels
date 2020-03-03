@@ -1,0 +1,9 @@
+.footer__li{
+	padding-right: 3px;
+	font-size: 24px;
+	list-style-type: none;
+}
+.footer__li:hover {
+	transition: 0.5s linear;
+	opacity: 0.5;
+}

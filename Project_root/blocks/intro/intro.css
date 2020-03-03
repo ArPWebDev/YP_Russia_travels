@@ -1,12 +1,9 @@
-@import url(__columns/intro__columns.css);
-@import url(__first-column/intro__first-column.css);
-@import url(__second-column/intro__second-column.css);
+@import url(__text/intro__text.css);
 @import url(__span/intro__span.css);
 @import url(__ul/intro__ul.css);
 @import url(__li/intro__li.css);
 .intro {
 	width: 68.33%;
-	margin: 83px auto 87px;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;

@@ -1,0 +1,33 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/footer/footer.css);
+@import url(../fonts/font.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);	
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/cover/cover.css);	
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(__header/page__header.css);
+@import url(__lead/page__lead.css);
+@import url(__intro/page__intro.css);
+@import url(__photo-grid/page__photo-grid.css);
+@import url(__places/page__places.css);
+@import url(__video/page__video.css);
+@import url(__comments/page__comments.css);
+@import url(__cover/page__cover.css);
+@import url(__footer/page__footer.css);
+.page {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: #2A2C2F;
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+}

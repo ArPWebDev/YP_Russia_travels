@@ -1,0 +1,6 @@
+.video__content-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+}

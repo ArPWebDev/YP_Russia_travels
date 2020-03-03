@@ -4,37 +4,12 @@
 @import url(__url/places__url.css);
 @import url(__link/places__link.css);
 @import url(__first-card/places__first-card.css);
+@import url(__second-card/places__second-card.css);
+@import url(__text-box/places__text-box.css);
+@import url(__text/places__text.css);
 .places {
-	margin: 0px auto 102px;
 	width: 68.33%;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-}
-
-
-
-
-
-
-.places__second-card {
-	display: flex;
-	margin: 0;
-	justify-content: space-between;
-}
-.places__text-box {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	width: 49.19%;
-}
-.places__text {
-	font-size: 18px;
-	line-height: 30px;
-	margin: 0;
-	padding: 0;
-	margin-top: 23px;
-}
-.places__text:nth-child(odd){
-	margin: 0;
 }

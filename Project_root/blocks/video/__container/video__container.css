@@ -1,0 +1,11 @@
+@import url(_obs/video__container_obs.css);
+.video__container {
+	width: 583px;
+	height: 323px;
+	border-radius: 5px;
+	background-size: cover;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../images/video_1.jpg);
+}
+.video__container:hover{
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../images/video_1.jpg);
+}
