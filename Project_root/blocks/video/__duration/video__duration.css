@@ -5,3 +5,13 @@
 	letter-spacing: 0.3em;
 	margin: 0 auto 12px 30px;
 }
+@media screen and (max-width: 1275px) {
+	.video__duration {
+		margin: auto auto 12px 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+	.video__duration {
+		margin: auto auto 8px 25px;
+  }
+}

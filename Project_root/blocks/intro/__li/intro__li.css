@@ -2,3 +2,9 @@
 	font-size: 13px;
 	line-height: 20.45px;
 }
+@media screen and (max-width: 900px) {
+    .intro__li{
+		font-size: 12px;
+	line-height: 19px;
+    }
+}

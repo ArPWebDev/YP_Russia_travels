@@ -4,3 +4,9 @@
 	flex-wrap: wrap;
 	width: 100%;
 }
+@media screen and (max-width: 900px) {
+	.comments__content-box  {	
+		flex-direction: column;
+		align-items: center;
+  }
+}

@@ -1,6 +1,19 @@
+@import url(_revised/video__icon-play_revised.css);
 .video__icon-play {
 	width: 41px;
 	height: 41px;
 	background-size: cover;
-	margin: 30px auto 93px 30px;
+	margin: 0px auto 93px 30px;
+	padding-top: 30px;
+}
+@media screen and (max-width: 1275px) {
+	.video__icon-play {
+		margin: 0px auto 53px 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+	.video__icon-play {
+		margin: 0px auto 13px 25px;
+		padding-top: 26px;
+  }
 }

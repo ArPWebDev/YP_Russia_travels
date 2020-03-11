@@ -3,3 +3,13 @@
 	margin: 0 auto;
 	padding-bottom: 82px;
 }
+@media screen and (max-width: 900px) {
+    .lead__box {
+        margin: 0;
+}
+}
+@media screen and (max-width: 500px) {
+    .lead__box {
+        padding-bottom: 64px;
+}
+}		

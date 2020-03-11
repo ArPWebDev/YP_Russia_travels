@@ -1,15 +1,30 @@
-@import url(__first-card/places__first-card.css);
+@import url(__title-card/places__title-card.css);
 @import url(__title/places__title.css);
 @import url(__link-box/places__link-box.css);
 @import url(__url/places__url.css);
 @import url(__link/places__link.css);
-@import url(__first-card/places__first-card.css);
-@import url(__second-card/places__second-card.css);
+@import url(__pic-card/places__pic-card.css);
 @import url(__text-box/places__text-box.css);
 @import url(__text/places__text.css);
+@import url(__photo/places__photo.css);
 .places {
-	width: 68.33%;
+	width: 984px;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
+}
+@media screen and (max-width: 1275px) {
+	.places {
+		width: 90.63%;
+  }
+}
+@media screen and (max-width: 900px) {
+	.places {
+		width: 94%;
+  }
+}
+@media screen and (max-width: 500px) {
+	.places {
+		width: 100%;
+  }
 }

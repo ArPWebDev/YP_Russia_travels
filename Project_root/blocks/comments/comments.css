@@ -4,8 +4,23 @@
 @import url(__author/comments__author.css);
 @import url(__blockquote/comments__blockquote.css);
 .comments {
-	width: 82.22%;
+	width: 1184px;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
+}
+@media screen and (max-width: 1275px) {
+	.comments  {
+		width: 90.63%;
+  }
+}
+@media screen and (max-width: 900px) {
+	.comments  {
+		width: 83.33%;
+  }
+}
+@media screen and (max-width: 500px) {
+	.comments  {
+		width: 91.47%;
+  }
 }

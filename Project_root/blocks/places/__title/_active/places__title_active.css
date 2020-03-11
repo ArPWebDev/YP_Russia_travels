@@ -1,0 +1,10 @@
+@media screen and (max-width: 900px) {
+    .places__title.places__title_active{
+        width: 46%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .places__title.places__title_active{
+        width: 100%;
+    }
+}

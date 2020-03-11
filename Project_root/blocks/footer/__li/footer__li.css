@@ -7,3 +7,15 @@
 	transition: 0.5s linear;
 	opacity: 0.5;
 }
+@media screen and (max-width: 900px) {
+	.footer__li {
+	font-size: 16px;
+	padding: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+	.footer__li {
+		font-size: 24px;
+		padding: 0;
+  }
+}

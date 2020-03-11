@@ -4,11 +4,32 @@
 
 .header {
 	display: flex;
-	width: 82.22%;
+	width: 1184px;
 	justify-content: space-between;
 	align-items: center;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
+@media screen and (max-width: 1275px) {
+    .header {
+        width: 90.63%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .header {
+        width: 94%;
+    }
+}
 
+@media screen and (max-width: 500px) {
+    .header {
+        width: 91.5%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        width: 90%;
+    }
+}

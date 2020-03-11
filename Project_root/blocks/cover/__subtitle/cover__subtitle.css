@@ -6,3 +6,24 @@
 	text-align: center;
 	padding-top: 119px;
 }
+@media screen and (max-width: 1275px) {
+	.cover__subtitle {
+		padding-top: 71px;
+		padding-right: 23px;
+  }
+}
+@media screen and (max-width: 900px) {
+	.cover__subtitle {
+		width: 47%;
+		padding-top: 52px;
+		padding-right: 7px;
+  }
+}
+@media screen and (max-width: 500px) {
+	.cover__subtitle {
+		width: 80%;
+		padding-top: 15px;
+		font-size: 14px;
+		line-height: 17px;
+  }
+}

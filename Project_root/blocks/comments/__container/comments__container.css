@@ -1,3 +1,26 @@
 .comments__container {
 	width: 32.26%;
 }
+@media screen and (max-width: 1275px) {
+	.comments__container {
+		width: 31.7%;
+  }
+}
+@media screen and (max-width: 900px) {
+	.comments__container {
+		width: 59.69%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+  }
+}
+@media screen and (max-width: 500px) {
+	.comments__container {
+		width: 99.5%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+  }
+}
+
+

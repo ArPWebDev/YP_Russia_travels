@@ -3,10 +3,25 @@
 @import url(__ul/intro__ul.css);
 @import url(__li/intro__li.css);
 .intro {
-	width: 68.33%;
+	width: 984px;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
+}
+@media screen and (max-width: 1275px) {
+	.intro {
+		width: 90.63%;
+}
+}
+@media screen and (max-width: 900px) {
+    .intro  {
+        width: 94%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .intro  {
+        width: 91.47%;
+    }
 }
 
 

@@ -1,3 +1,4 @@
+@import url(_active/places__title_active.css);
 .places__title {
 	font-size: 72px;
 	line-height: 65px;
@@ -5,4 +6,18 @@
 	width: 46.44%;
 	margin: 0;
 	font-weight: 900;
+}
+@media screen and (max-width: 900px) {
+	.places__title {
+	width: 47.41%;
+	font-size: 42px;
+	line-height: 46px;
+  }
+}
+@media screen and (max-width: 500px) {
+	.places__title {
+	width: 100%;
+	font-size: 32px;
+	line-height: 35px;
+  }
 }

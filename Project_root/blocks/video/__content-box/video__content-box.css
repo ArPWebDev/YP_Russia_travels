@@ -4,3 +4,8 @@
 	flex-wrap: wrap;
 	width: 100%;
 }
+@media screen and (max-width: 730px) {
+	.video__content-box  {
+		flex-direction: column;
+  }
+}

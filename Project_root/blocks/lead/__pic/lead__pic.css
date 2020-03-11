@@ -1,4 +1,20 @@
 .lead__pic {
-	width: 100%;
+	width: 984px;
+	height: 554.13px;
 	background-size: cover;
+}
+@media screen and (max-width: 1275px) {
+	.lead__pic {
+		width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+	.lead__pic {
+		max-height: 420px;
+  }
+}
+@media screen and (max-width: 500px) {
+	.lead__pic {
+		max-height: 211px;
+  }
 }

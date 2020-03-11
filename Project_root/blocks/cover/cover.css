@@ -7,11 +7,27 @@
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../images/cover.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/cover.jpg);
 	background-size: cover;
 	color: #FFFFFF;
 	text-decoration: none;
 }
 .cover:hover{
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../images/cover.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../images/cover.jpg);
+}
+@media screen and (max-width: 1275px) {
+	.cover {
+		width: 100%;
+		max-height: 562px;
+  }
+}
+@media screen and (max-width: 900px) {
+	.cover {
+		max-height: 500px;
+  }
+}
+@media screen and (max-width: 500px) {
+	.cover {
+		max-height: 272px;
+  }
 }

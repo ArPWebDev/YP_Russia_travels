@@ -2,6 +2,18 @@
 	font-size: 54px;
 	line-height: 59px;
 	text-align: start;
-	width: 69.41%;
+	width: 683px;
 	margin: 0 auto 0 0;
+}
+@media screen and (max-width: 1275px) {
+	.section-title.section-title_place_intro {
+		width: 100%;
+}
+}
+@media screen and (max-width: 500px) {
+	.section-title.section-title_place_intro {
+		font-size: 32px;
+		line-height: 35px;
+		width: 73%;
+}
 }

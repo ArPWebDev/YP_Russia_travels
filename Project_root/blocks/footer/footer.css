@@ -5,10 +5,29 @@
 @import url(__ul/footer__ul.css);
 .footer {
 	display: flex;
-	width: 82%;
+	width: 1184px;
 	justify-content: space-between;
 	align-items: flex-end;
 	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
+}
+@media screen and (max-width: 1275px) {
+	.footer {
+		width: 90.63%;
+		min-width: 843px;
+  }
+}
+@media screen and (max-width: 900px) {
+	.footer {
+		width: 94%;
+		min-width: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+	.footer {
+		width:  91.47%;
+		flex-direction: column;
+		min-height: 312px;
+  }
 }

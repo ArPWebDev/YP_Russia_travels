@@ -1,0 +1,10 @@
+.places__pic-card {
+	display: flex;
+	margin: 0;
+	justify-content: space-between;
+}
+@media screen and (max-width: 500px) {
+	.places__pic-card {
+	flex-direction: column;
+  }
+}

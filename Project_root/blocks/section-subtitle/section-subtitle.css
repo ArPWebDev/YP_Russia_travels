@@ -1,6 +1,5 @@
 @import url(_place/_lead/section-subtitle_place_lead.css);
 @import url(_place/_video/section-subtitle_place_video.css);
-@import url(_place/_additional/section-subtitle_place_additional.css);
 @import url(_place/_comments/section-subtitle_place_comments.css);
 .section-subtitle {
 	text-align: center;

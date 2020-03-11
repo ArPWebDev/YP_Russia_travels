@@ -1,3 +1,13 @@
 .page__places{
-    margin: 0px auto 102px;
+    margin: 0 auto 104px;
+}
+@media screen and (max-width: 900px) {
+	.page__places {
+		margin: 0 auto 114px;
+  }
+}
+@media screen and (max-width: 500px) {
+	.page__places {
+		margin: 0 auto 66px;
+  }
 }

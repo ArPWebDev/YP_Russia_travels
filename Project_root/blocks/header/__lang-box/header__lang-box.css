@@ -5,3 +5,14 @@
 	width: 78px;
 	margin-top: 12px;
 }
+@media screen and (max-width: 500px) {
+    .header__lang-box {
+		width: 68px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-box {
+        width: 62px;
+    }
+}

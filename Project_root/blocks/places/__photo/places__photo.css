@@ -1,0 +1,25 @@
+.places__photo{
+background-image: cover;
+width: 460px;
+}
+@media screen and (max-width: 1275px) {
+	.places__photo {
+		width:	47.41%;
+		max-width:	440px;
+		max-height: 440px;
+  }
+}
+@media screen and (max-width: 900px) {
+	.places__photo {
+		width: 47.22%;
+		max-width:	340px;
+		max-height: 340px;
+  }
+}
+@media screen and (max-width: 500px) {
+	.places__photo {
+		width: 100%;
+		max-width:	500px;
+		max-height: 500px;
+  }
+}

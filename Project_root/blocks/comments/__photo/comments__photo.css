@@ -5,3 +5,9 @@
 	background-size: cover;
 	margin: 0 auto 34px 0;
 }
+@media screen and (max-width: 900px) {
+	.comments__photo {	
+		margin: 0 auto;
+		padding-bottom: 13px;
+  }
+}
