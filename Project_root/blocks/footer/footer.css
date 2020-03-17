@@ -24,10 +24,15 @@
 		min-width: 200px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
 	.footer {
 		width:  91.47%;
 		flex-direction: column;
 		min-height: 312px;
+  }
+}
+@media screen and (max-width: 350px) {
+	.footer {
+		width:  90%;
   }
 }

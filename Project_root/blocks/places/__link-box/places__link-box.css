@@ -9,7 +9,7 @@
         width: 49%;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
     .places__link-box{
         display: none;
     }

@@ -6,19 +6,21 @@
 	<link href="vendor/normalize.css" rel="stylesheet">
 	<link href="page/style.css" rel="stylesheet">
 	<title>Путешествия по России</title>
+	<!-- Отлично! правильно оформлен head -->
 </head>
-<body class="page">
-	<header class="header page__header">
+<body class="content">
+	<header class="header content__header">
 		<img alt="логотип" class="header__logo" src="./images/logo.svg">
 		<!-- Отлично! логотип загружен в векторном формате -->
 
 		<nav class="header__lang-box">
-			<a href="#" target="blank" class="header__lang header__lang_active">Ru</a>
-			<a href="#" target="blank" class="header__lang">En</a>
+			<a href="#" class="header__lang header__lang_active">Ru</a>
+			<a href="#" class="header__lang">En</a>
+			<!-- Можно лучше: это внутренние ссылки, им необязательно открываться в новой вкладке +-->
 		</nav>
 	</header>
-	<main class="content">
-		<section class="lead page__lead">
+	<main class="main">
+		<section class="lead content__lead">
 			<h1 class="section-title section-title_place_lead">Путешествия по&nbsp;России</h1>
 			<!-- Отлично! правильно выделен заголовок страницы и обозначен тегом h1-h6 -->
 			<p class="section-subtitle section-subtitle_place_lead">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -28,7 +30,7 @@
 				<figcaption class="lead__caption">ваша полка — верхняя</figcaption>
 			</figure>
 		</section>
-		<section class="intro page__intro">
+		<section class="intro content__intro">
 			<h2 class="section-title section-title_place_intro">Чего мы там не видели?</h2>
 			<p class="intro__text">
 					По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и 
@@ -40,24 +42,27 @@
 				<li class="intro__li"><span class="intro__span">Объектов культурного наследия ЮНЕСКО</span> 16</li>
 				<li class="intro__li"><span class="intro__span">Природных заповедников</span> 105</li>
 				<li class="intro__li"><span class="intro__span">Аэропортов</span> 241</li>
+				<!-- Отлично! Вы используете в разметке семантические теги списка ul -->
+	
 			</ul>
 		</section>
-		<section class="photo-grid page__photo-grid">
-			<img alt="фото" class="photo-grid__element" src="./images/grid_1.jpg">
-			<img alt="фото" class="photo-grid__element" src="./images/grid_2.jpg">
-			<img alt="фото" class="photo-grid__element" src="./images/grid_3.jpg">
-			<img alt="фото" class="photo-grid__element" src="./images/grid_4.jpg"> 
-			<img alt="фото" class="photo-grid__element" src="./images/grid_5.jpg"> 
-			<img alt="фото" class="photo-grid__element" src="./images/grid_6.jpg">
-			<img alt="фото" class="photo-grid__element" src="./images/grid_7.jpg">
-			<img alt="фото" class="photo-grid__element" src="./images/grid_8.jpg"> 
-			<img alt="фото" class="photo-grid__element" src="./images/grid_9.jpg">
-			<img alt="фото" class="photo-grid__element" src="./images/grid_10.jpg">
-			<img alt="фото" class="photo-grid__element" src="./images/grid_11.jpg">
-			<img alt="фото" class="photo-grid__element" src="./images/grid_12.jpg">
+		<section class="photo-grid content__photo-grid">
+			<img alt="фото поезда" class="photo-grid__element" src="./images/grid_1.jpg">
+			<img alt="фото волка" class="photo-grid__element" src="./images/grid_2.jpg">
+			<img alt="фото гор" class="photo-grid__element" src="./images/grid_3.jpg">
+			<img alt="фото леса" class="photo-grid__element" src="./images/grid_4.jpg"> 
+			<img alt="фото колеса" class="photo-grid__element" src="./images/grid_5.jpg"> 
+			<img alt="фото гор" class="photo-grid__element" src="./images/grid_6.jpg">
+			<img alt="фото берега" class="photo-grid__element" src="./images/grid_7.jpg">
+			<img alt="фото бетонных блоков" class="photo-grid__element" src="./images/grid_8.jpg"> 
+			<img alt="фото гор" class="photo-grid__element" src="./images/grid_9.jpg">
+			<img alt="фото гор" class="photo-grid__element" src="./images/grid_10.jpg">
+			<img alt="фото гор" class="photo-grid__element" src="./images/grid_11.jpg">
+			<img alt="фото гор" class="photo-grid__element" src="./images/grid_12.jpg">
+	
 			<!-- Отлично! правильно оформлен блок с изображениями! у изображений есть src, alt и класс -->
 		</section>
-		<section class="places page__places">
+		<section class="places content__places">
 			<div class="places__title-card">
 				<h2 class="places__title places__title_active">Куршская коса</h2>
 				<div class="places__link-box">
@@ -66,7 +71,8 @@
 				</div>
 			</div>
 			<div class="places__pic-card">
-				<img alt="фото" class="places__photo" src="./images/places_1.jpg">
+				<img alt="фото берега" class="places__photo" src="./images/places_1.jpg">
+		
 				<div class="places__text-box">
 					<p class="places__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
 					<p class="places__text">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
@@ -79,7 +85,7 @@
 				</div>
 			</div>
 			<div class="places__pic-card">
-				<img alt="фото" class="places__photo" src="./images/places_2.jpg">
+				<img alt="фото гор" class="places__photo" src="./images/places_2.jpg">
 				<div class="places__text-box">
 					<p class="places__text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
 					<p class="places__text">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
@@ -92,7 +98,7 @@
 				</div>
 			</div>
 			<div class="places__pic-card">
-				<img alt="фото" class="places__photo" src="./images/places_3.jpg">
+				<img alt="фото леса" class="places__photo" src="./images/places_3.jpg">
 				<div class="places__text-box">
 					<p class="places__text">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
 					<p class="places__text">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
@@ -105,7 +111,7 @@
 				</div>
 			</div>
 			<div class="places__pic-card">
-				<img alt="фото" class="places__photo" src="./images/places_4.jpg">
+				<img alt="фото озера Байкал" class="places__photo" src="./images/places_4.jpg">
 				<div class="places__text-box">
 					<p class="places__text">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
 					<p class="places__text">Конечно, это всё так. Но Байкал ещё идеальное место для&nbsp;соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
@@ -118,26 +124,27 @@
 				</div>
 			</div>
 			<div class="places__pic-card">
-				<img alt="фото" class="places__photo" src="./images/places_5.jpg">
+				<img alt="фото леса" class="places__photo" src="./images/places_5.jpg">
 				<div class="places__text-box">
 					<p class="places__text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
 				</div>
 			</div>
 		</section>
-		<section class="video page__video">
+		<section class="video content__video">
 			<h2 class="section-title section-title_place_video">В глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
 			<p class="section-subtitle section-subtitle_place_video">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
 			<div class="video__content-box">
 				<a class="video__link" href="https://vimeo.com/81106671" target="blank">
-					<div class="video__container">
+					<div class="video__container video__container_type_kamchatka">
 						<img alt="иконка запуска видео" class="video__icon-play video__icon-play_revised" src="./images/icon_play.svg">
+						<!-- Можно лучше: удалите из разметки декоративную иконку и загрузите ее псевдоэлементом -->
 						<p class="video__duration">6:30</p>
 						<h2 class="video__title">Colors of Kamchatka</h2>
 						<p class="video__subtitle">Director: Pavel Karykhalin</p>
 					</div>
 				</a>
 				<a class="video__link" href="https://vimeo.com/290675450" target="blank">
-					<div class="video__container video__container_obs">
+					<div class="video__container video__container_type_obs">
 						<img alt="иконка запуска видео" class="video__icon-play" src="./images/icon_play.svg">
 						<p class="video__duration">24:45</p>
 						<h2 class="video__title">Обсерватория | Observatory</h2>
@@ -146,7 +153,7 @@
 				</a>
 			</div>
 		</section>
-		<section class="comments page__comments">
+		<section class="comments content__comments">
 			<h2 class="section-title section-title_place_comments">Фотографы, снимающие Россию</h2>
 			<p class="section-subtitle section-subtitle_place_comments">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
 			<div class="comments__content-box">
@@ -174,15 +181,12 @@
 				</div>
 			</div>
 		</section> 
-		<a class="cover page__cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
-				<!-- Надо исправить: Этот элемент - лишняя обертка. Ее можно удалить без вреда для верстки. Старайтесь избегать лишних элементов в разметке. -->
-				<!-- Одну обвертку удалил, а cover__box же нужен? Или я что-то не понимаю? -->
-				<!-- да. у вас сейчас целых три оберки для текста. нужно оставить и распределить стили между section и a -->
-				<h2 class="cover__title">До Байкала «на собаках»</h2>
+		<a class="cover content__cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
+				<h2 class="cover__title">До Байкала «на собаках»</h2>	
 				<p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
 		</a>	
 	</main>
-	<footer class="footer page__footer">
+	<footer class="footer content__footer">
 		<nav class="footer__menu">
 			<ul class="footer__ul">
 				<li class="footer__li">
@@ -208,41 +212,59 @@
 </body>
 </html>
 
+	<!-- В целом по работе: 
 
-<!-- В целом по работе: 
-        Отлично!  
-        понятный, хорошо структурированный код
-        страница проходит валидацию 
-        для всех изображений прописан alt
-        стили и картинки в самостоятельных папках
-        для логотипа и иконок использован вектроный формат изображений
-		контент центрируется на большом экране
-		пути исправлены и подключены стили и изображения
+      Отлично! Понравилось в работе:
 
+        - Файловая система и классы по БЭМ
+        - Страница валидна
+        - Использованы семантические теги и списки
+        - Для подзаголовков использованы параграфы
+        - Для переиспользования в проекте есть блоки
+        - Размечены все макеты
+        - Нет горизонтальных скроллов
+        - На большом экране контент центрируется
+        - Все брейкпоинты внешне соответствуют макетам
+        - Учтены изменения шрифтов и размров блоков
+        - Аккуратное выравнивание блоков на странице
 
-    Нужно исправить:
-
-    - Комментарии в cover
+	Надо исправить:
 	
-	- видео должно быть 2 в ряду
+	- внутри папки video/__container в
+	не создавайте папки для модификаторов. 
+	храните файлы в напрямую в папке _type/ для модификаторов, которые задают фон видео+
 
-   
+	- между брейкпоинтами задайте для изображений автоматическую высоту, чтобы их пропорции не деформировались
+	* .lead__pic, .photo-grid__element, .video__container+
+	
+
 
 
     Можно улучшить:
-       
-	- Распределите стилевые файлы в соответствии с файловой структурой БЭМ https://ru.bem.info/methodology/filestructure/ 
-	* элементы блоков необходимо распределить по своим файлам
 
+    - Комментарии в разметке
 
+    - для страницы добавьте min-width: 320px;+
 
-Пожалуйста, не удаляйте комментарии.
+  Пожалуйста, не удаляйте комментарии
 Исправленные комментарии помечайте +
 
-
-Визуальные различия нужно исправить. Работа должна в точности соответствовать брифу
 Для получения зачета исправьте комментарии "Надо исправить"
+
+Полезные материалы:
+
+Масштабируемые шрифты
+- https://codepen.io/Maks113/pen/dgWpxE
+- https://codepen.io/CrocoDillon/pen/fBJxu
+- https://codepen.io/TrevorJTClarke/pen/GoJYOo
+- https://codepen.io/podolskiis/pen/erxmKW
+
+Плотность пикселей
+- https://vc.ru/design/19864-pixels-in-mobile-design
+
+Что должен знать фронтенд-разработчик
+- https://habr.com/ru/company/netologyru/blog/327294/
 -->
-<!-- Видео, вроде и до этого было 2 в ряд, макет сверстан под 1440 и они в любом случае влезают, но наставник сказал заменить относительную ширину коробки с видео, на статическую, что я собственно и сделал. Касательно размеров, наставник сказал, что допускаются 
-	отклонения до 10px, у меня самый проблемный получился блок places, но и там нет расхождений больше, чем в 10px. Есть проблема с текстом который, с подчеркиванием, в макете линия подчеркивания на 1-2px дальше от текста, а в моей верстке она вплотную, как это 
-	пофиксить я не знаю, но наставник пояснил, что :"немного разное расстояние от текста до линии это нормально, подчеркивание отрисовывается браузером и в большинстве случаев этим нельзя управлять".-->
+<!-- Исправил все кроме вставки иконки видео псевдоэлементом,  пытался вставить, но через video_container ::before - иконка добавляется ко
+	 всем элементам внутри контейнера,а на video_duratation ::before -вообще не реагирует, крч забил.
+ -->

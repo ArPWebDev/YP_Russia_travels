@@ -3,7 +3,7 @@
 	margin: 0;
 	justify-content: space-between;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
 	.places__pic-card {
 	flex-direction: column;
   }

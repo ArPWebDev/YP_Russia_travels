@@ -14,9 +14,15 @@
 		width: 48.89%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
 	.places__text-box {
 		width: 91.47%;
+		margin: 0 auto;
+  }
+}
+@media screen and (max-width: 350px) {
+	.places__text-box {
+		width: 89.5%;
 		margin: 0 auto;
   }
 }

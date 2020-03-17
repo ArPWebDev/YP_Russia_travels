@@ -3,7 +3,7 @@
         width: 46%;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
     .places__title.places__title_active{
         width: 100%;
     }

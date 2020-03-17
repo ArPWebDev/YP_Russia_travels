@@ -26,3 +26,9 @@
 
     }
 }
+@media screen and (max-width: 350px) {
+    .intro__text  {
+		margin: 39px auto 34px 0;
+
+    }
+}

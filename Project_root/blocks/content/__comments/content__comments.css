@@ -1,0 +1,23 @@
+.content__comments {
+	margin: 0 auto 94px;
+}
+@media screen and (max-width: 1275px) {
+	.content__comments {
+		margin: 0 auto 97px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.content__comments {
+		margin: 0 auto 55px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.content__comments {
+		margin: 0 auto 6px;
+	}
+}
+@media screen and (max-width: 350px) {
+	.content__comments {
+		margin: 0 auto 22px;
+	}
+}

@@ -1,20 +1,21 @@
 .lead__pic {
 	width: 984px;
-	height: 554.13px;
-	background-size: cover;
+	object-fit: cover;
 }
 @media screen and (max-width: 1275px) {
 	.lead__pic {
 		width: 100%;
+		min-height: 554px;
   }
 }
 @media screen and (max-width: 900px) {
 	.lead__pic {
 		max-height: 420px;
+		min-height: 100px;
   }
 }
 @media screen and (max-width: 500px) {
 	.lead__pic {
-		max-height: 211px;
+		min-height: 211px;
   }
 }

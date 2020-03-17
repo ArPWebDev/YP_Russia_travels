@@ -14,7 +14,7 @@
 	line-height: 46px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
 	.places__title {
 	width: 100%;
 	font-size: 32px;

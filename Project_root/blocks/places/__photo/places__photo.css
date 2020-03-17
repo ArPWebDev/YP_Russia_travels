@@ -1,25 +1,27 @@
-.places__photo{
-background-image: cover;
+.places__photo{	
 width: 460px;
+object-fit: contain;
+object-position: top;
 }
 @media screen and (max-width: 1275px) {
 	.places__photo {
 		width:	47.41%;
-		max-width:	440px;
-		max-height: 440px;
+	
   }
 }
 @media screen and (max-width: 900px) {
 	.places__photo {
 		width: 47.22%;
-		max-width:	340px;
-		max-height: 340px;
+  }
+}
+@media screen and (max-width: 730px) {
+		.places__photo {
+	    margin: 0 auto;
+		width: 91.47%;
   }
 }
 @media screen and (max-width: 500px) {
-	.places__photo {
+		.places__photo {
 		width: 100%;
-		max-width:	500px;
-		max-height: 500px;
   }
 }

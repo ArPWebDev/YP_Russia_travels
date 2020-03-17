@@ -1,5 +1,10 @@
 @media screen and (max-width: 900px) {
 	.video__icon-play.video__icon-play_revised {
-		margin: 0px auto 36px 25px;
+		margin: 25px auto 36px 25px;
+  }
+}
+@media screen and (max-width: 350px) {
+	.video__icon-play.video__icon-play_revised {
+		margin: 16px auto 49px 16px;
   }
 }
