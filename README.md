@@ -1,5 +1,5 @@
 ---
-permalink: /index.html
+permalink: /Project_root/index.html
 ---
 
 # YP_Russia_travels
